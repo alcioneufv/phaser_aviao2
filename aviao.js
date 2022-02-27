@@ -3,8 +3,10 @@
   const phaserConfig = {
       type: Phaser.AUTO,
       parent: "game",
-      width: 1280,
-      height: 400,
+  //    width: 1280,
+  //    height: 400,
+    width: 600,
+    height: 200,
       backgroundColor: "#5DACD8",
       scene: {
           init: initScene,
