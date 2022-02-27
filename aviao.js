@@ -20,8 +20,8 @@
 
   function initScene() { }
   function preloadScene() {
-       this.load.image("clouds-white", "clouds-white.png");
-       this.load.image("clouds-white-small", "clouds-white-small.png");
+       this.load.image("clouds-white", "assets/clouds-white.png");
+       this.load.image("clouds-white-small", "assets/clouds-white-small.png");
   }
   function createScene() {
        cloudsWhite = this.add.tileSprite(640, 200, 1280, 400, "clouds-white");
