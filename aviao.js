@@ -26,6 +26,7 @@
   function createScene() {
        cloudsWhite = this.add.tileSprite(640, 200, 1280, 400, "clouds-white");
        cloudsWhiteSmall = this.add.tileSprite(640, 200, 1280, 400, "clouds-white-small");
+       this.cameras.main.setSize(600, 200);
   }
   function updateScene() {
       cloudsWhite.tilePositionX += 0.5;
