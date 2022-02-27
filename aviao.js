@@ -20,6 +20,7 @@
 
   var cloudsWhite, cloudsWhiteSmall;
   var cursors;
+  var x,y;
 
 
   function initScene() { }
