@@ -19,7 +19,7 @@
   const game = new Phaser.Game(phaserConfig);
 
   var cloudsWhite, cloudsWhiteSmall;
-  cursors = this.input.keyboard.createCursorKeys();
+  var cursors;
 
 
   function initScene() { }
