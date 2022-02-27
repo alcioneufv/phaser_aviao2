@@ -39,14 +39,13 @@
       cloudsWhite.tilePositionX += 0.5;
       cloudsWhiteSmall.tilePositionX += 0.25;
       if (cursors.right.isDown) {
-           x = this.cameras.main.x+5
+           this.cameras.scrollX+=5
         } else if (cursors.left.isDown) {
-           x = this.cameras.main.x-5
+           this.cameras.scrollX-=5
         } else if (cursors.up.isDown) {
-           y = this.cameras.main.y-5 
+          this.cameras.scrollY+=5
         } else if (cursors.down.isDown) {
-           y = this.cameras.main.y+5 
+           this.cameras.scrollY-=5
         }
 
-        this.cameras.main.centerOn(x, y);
   }
