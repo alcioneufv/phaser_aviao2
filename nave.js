@@ -14,6 +14,8 @@ class Example extends Phaser.Scene
     create ()
     {
         this.add.image(0, 0, 'clouds-white').setOrigin(0);
+        const cloudsWhite = this.add.tileSprite(640, 200, 1280, 400, "clouds-white").setOrigin(0);
+        const cloudsWhiteSmall = this.add.tileSprite(640, 200, 1280, 400, "clouds-white-small").setOrigin(0);
 
         //  Set the camera bounds to be the size of the image
         this.cameras.main.setBounds(0, 0, 1280, 400);
@@ -38,7 +40,7 @@ class Example extends Phaser.Scene
     update (time, delta)
     {
         this.controls.update(delta);
-        cloudsWhite.tilePositionX += 0.5;
+        this.cloudsWhite.tilePositionX += 0.5;
     }
 }
 
