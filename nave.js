@@ -13,7 +13,7 @@ class Example extends Phaser.Scene
 
     create ()
     {
-        this.add.image(0, 0, 'clouds-white').setOrigin(0);
+       // this.add.image(0, 0, 'clouds-white').setOrigin(0);
         const cloudsWhite = this.add.tileSprite(640, 200, 1280, 400, "clouds-white").setOrigin(0);
         const cloudsWhiteSmall = this.add.tileSprite(640, 200, 1280, 400, "clouds-white-small").setOrigin(0);
 
