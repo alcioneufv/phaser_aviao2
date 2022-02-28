@@ -17,7 +17,7 @@ class Example extends Phaser.Scene
         this.cloudsWhiteSmall = this.add.tileSprite(640, 200, 1280, 400, "clouds-white-small").setOrigin(0);
 
         //  Set the camera bounds to be the size of the image
-        this.cameras.main.setBounds(0, 0, 1280, 400);
+        this.cameras.main.setBounds(0, 0, 1280, 400).setOrigin(0);
 
         //  Camera controls
         const cursors = this.input.keyboard.createCursorKeys();
