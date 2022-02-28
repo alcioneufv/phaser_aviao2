@@ -38,6 +38,7 @@ class Example extends Phaser.Scene
     update (time, delta)
     {
         this.controls.update(delta);
+        cloudsWhite.tilePositionX += 0.5;
     }
 }
 
