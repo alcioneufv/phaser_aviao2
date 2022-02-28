@@ -13,7 +13,6 @@ class Example extends Phaser.Scene
 
     create ()
     {
-       // this.add.image(0, 0, 'clouds-white').setOrigin(0);
         this.cloudsWhite = this.add.tileSprite(640, 200, 1280, 400, "clouds-white").setOrigin(0);
         this.cloudsWhiteSmall = this.add.tileSprite(640, 200, 1280, 400, "clouds-white-small").setOrigin(0);
 
@@ -41,6 +40,7 @@ class Example extends Phaser.Scene
     {
         this.controls.update(delta);
         this.cloudsWhite.tilePositionX += 0.5;
+        this.cloudsWhiteSmall.tilePositionX += 0.25;
     }
 }
 
