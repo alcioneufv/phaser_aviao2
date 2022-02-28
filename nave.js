@@ -45,8 +45,8 @@ const config = {
     type: Phaser.AUTO,
     parent: 'phaser-example',
     width: 800,
-    height: 800,
-    backgroundColor: '#000000',
+    height: 200,
+    backgroundColor: '#5DACD8',
     scene: [ Example ]
 };
 
